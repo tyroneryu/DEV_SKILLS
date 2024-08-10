@@ -1,7 +1,7 @@
 # pyth0n_study
 
 ## Python
-  - [Basic Syntax]([./Python/python_basic_syntax.md](https://github.com/tyroneryu/Python/blob/main/python_basic_syntax.md))
+  - [Basic Syntax](https://github.com/tyroneryu/Python/tree/main#:~:text=1%20minute%20ago-,python_basic_syntax.md,-Rename%20python_1.md)
   - [Data Type]
   - [Function 01]
   - [Function 02]
