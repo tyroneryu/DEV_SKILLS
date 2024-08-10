@@ -1,4 +1,4 @@
-# pyth0n_study
+# Dev_study
 
 ## Python
   - [Basic Syntax](python_basic_syntax.md)
@@ -16,3 +16,13 @@
   - [Object Oriented Programming 01](python_oop_1.md)
     
   - [Object Oriented Programming 02](python_oop_2.md)
+
+---
+
+## Algorithm
+  - [Array 01](algorithm_array_1.md)
+  - [Array 02](algorithm_array_2.md)
+  - [Array 03](algorithm_array_3.md)
+  - [Array 04](algorithm_array_4.md)
+  - [String 01](algorithm_string_1.md)
+  - [String 02](algorithm_string_2.md)
