@@ -1,7 +1,7 @@
 # pyth0n_study
 
 ## Python
-  - [Basic Syntax]
+  - [Basic Syntax] (python_basic_syntax.md)
   - [Data Type]
   - [Function 01]
   - [Function 02]
