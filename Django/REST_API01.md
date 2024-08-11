@@ -128,13 +128,13 @@
 
 #### 응답 데이터 타입의 변화
 - 페이지(html)만을 응답했던 서버
-![RESTAPI03](./asset/RESTAPI03.PNG)
+![RESTAPI03](/asset/RESTAPI03.PNG)
 - 이제는 JSON 데이터를 응답하는 REST API 서버로의 변환
-![RESTAPI04](./asset/RESTAPI04.PNG)
+![RESTAPI04](/asset/RESTAPI04.PNG)
 - Django는 더이상 Template 부분에 대한 역할을 담당하지 않게 되며, 본격적으로 Front-end와 Back-end가 분리되어 구성됨
-![RESTAPI05](./asset/RESTAPI05.PNG)
+![RESTAPI05](/asset/RESTAPI05.PNG)
 - 이제부터 Django를 사용해 RESTful API 서버를 구축할 것
-![RESTAPI06](./asset/RESTAPI06.PNG)
+![RESTAPI06](/asset/RESTAPI06.PNG)
 
 ### 사전 준비
 - 가상 환경 생성, 활성화 및 패키지 설치
@@ -187,10 +187,10 @@ print(type(result))
     - API를 구축하고 사용하기 위한 플랫폼
     - API를 빠르게 만들 수 있는 여러 도구 및 기능을 제공
 - Workspaces - My workspace
-![RESTAPI07](./asset/RESTAPI07.PNG)
+![RESTAPI07](/asset/RESTAPI07.PNG)
 
 #### Postman 화면 구성 안내
-![RESTAPI08](./asset/RESTAPI08.PNG)
+![RESTAPI08](/asset/RESTAPI08.PNG)
 
 #### URL과 HTTP reauest methods 설계
 |-|`GET`|`POST`|`PUT`|`DELETE`|
@@ -201,12 +201,12 @@ print(type(result))
 ### Serialization
 - 직렬화
 - 여러 시스템에서 활용하기 위해 데이터 구조나 객체 상태를 나중에 재구성할 수 있는 포맷으로 변환하는 과정
-![RESTAPI11](./asset/RESTAPI11.PNG)
+![RESTAPI11](/asset/RESTAPI11.PNG)
 
 #### Serialization 예시
 - 데이터 구조나 객체 상태를 나중에 재구성할 수 있는 포맷으로 변환하는 과정
-![RESTAPI09](./asset/RESTAPI09.PNG)
-![RESTAPI10](./asset/RESTAPI10.PNG)
+![RESTAPI09](/asset/RESTAPI09.PNG)
+![RESTAPI10](/asset/RESTAPI10.PNG)
 
 #### Serializer
 - Serialization을 진행하여 Serialized data를 반환해주는 클래스
