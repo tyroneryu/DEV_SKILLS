@@ -44,7 +44,7 @@
 - 통합(Combine): 필요하다면 해결된 해답을 모음
 
 #### Top-down approach 예시     
-![APS01](./asset/APS01.PNG)
+![APS01](/asset/APS01.PNG)
 
 ### 분할 정복 기법 예시
 #### 거듭 제곱
@@ -88,7 +88,7 @@ def Recursive_Power(x, n):
 
 #### 분할 단계
 - 전체 자료 집합에 대해 **최소 크기의 부분집합이 될 때까지** 분할 작업을 계속함      
-![APS02](./asset/APS02.PNG)
+![APS02](/asset/APS02.PNG)
 ```python
 def merge_sort(arr):
     if len(arr) == 1:
@@ -111,7 +111,7 @@ def merge_sort(arr):
 #### 병합 단계
 - 2개의 부분집합을 정렬하면서 하나의 집합으로 병합
 - 8개의 부분집합이 1개로 병합될 때까지 반복         
-![APS03](./asset/APS03.PNG)
+![APS03](/asset/APS03.PNG)
 ```python
 def merg(left, right):
     result = []
@@ -164,18 +164,18 @@ def partition(arr, l, r):
 
 ### 아이디어
 - P(피봇) 값들보다 큰 값은 오른쪽, 작은 값은 왼쪽 집합에 위치하도록 함
-![APS04](./asset/APS04.PNG)
+![APS04](/asset/APS04.PNG)
 - 피봇을 두 집합의 가운데에 위치시킴
-![APS05](./asset/APS05.PNG)
+![APS05](/asset/APS05.PNG)
 
 ### 피봇 선택
 - 왼쪽 끝/오른쪽 끝/임의의 세 값 중에 중간 값               
-![APS06](./asset/APS06.PNG)
-![APS07](./asset/APS07.PNG)
-![APS08](./asset/APS08.PNG)
-![APS09](./asset/APS09.PNG)
-![APS10](./asset/APS10.PNG)
-![APS11](./asset/APS11.PNG)
+![APS06](/asset/APS06.PNG)
+![APS07](/asset/APS07.PNG)
+![APS08](/asset/APS08.PNG)
+![APS09](/asset/APS09.PNG)
+![APS10](/asset/APS10.PNG)
+![APS11](/asset/APS11.PNG)
 
 ### Lomuto partition 알고리즘
 ```python
@@ -189,7 +189,7 @@ def aprtition(arr, p, r):
     arr[i + 1], arr[r] = arr[r], arr[i + 1]
     return i + 1
 ```
-![APS12](./asset/APS12.PNG)
+![APS12](/asset/APS12.PNG)
 
 ### 연습 문제 1
 - 배열의 데이터를 퀵 정렬하는 함수를 작성하고 테스트 해보기
