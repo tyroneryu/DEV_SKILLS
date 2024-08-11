@@ -49,7 +49,7 @@ DFS(0)
 - 꽝 노드까지 도달하면 최근의 선택으로 되돌아와서 다시 시작
 - 더이상의 선택지가 없다면 이전의 선택지로 돌아가서 다른 선택을 함
 - 루트까지 돌아갔을 경우 더 이상 선택지가 없다면 찾는 답이 없음         
-![APS13](./asset/APS13.PNG)
+![APS13](/asset/APS13.PNG)
 
 #### 백트래킹과 깊이 우선 탐색과의 차이
 - 어떤 노드에서 출발하는 경로가 해결책으로 이어질 것 같지 않다면 더 이상 그 경로를 따라가지 않음으로써 시도의 횟수를 줄임(**Prunning** 가지치기)
@@ -90,7 +90,7 @@ def checknode(node, v):
 ```
 
 #### 상태 공간 트리
-![APS14](./asset/APS14.PNG)
+![APS14](/asset/APS14.PNG)
 
 #### 깊이 우선 검색 vs 백트래킹
 - 순수한 깊이 우선 검색 = 155 노드
@@ -102,7 +102,7 @@ def checknode(node, v):
 ## 트리
 ### 문제: 계산기
 - 수식 2 + 3 * 4를 다음과 같은 그래프로 표현하고 그래프를 순회하여 수식을 계산하자
-![APS15](./asset/APS15.PNG)
+![APS15](/asset/APS15.PNG)
 
 ### 트리
 - 트리는 싸이클이 없는 무향 연결 그래프
@@ -118,10 +118,10 @@ def checknode(node, v):
     1. 노드 중 부모가 없는 노드를 루트(root)라 함
     2. 나머지 노드들은 n(>= 0) 개의 분리 집합 T1, ... TN으로 분리될 수 있음
 - 이들 T1, ..., TN은 각각 하나의 트리가 되며 (재귀적 정의) 루트의 서브 트리(subtree)라 함
-![APS16](./asset/APS16.PNG)
+![APS16](/asset/APS16.PNG)
 
 ### 트리 용어
-![APS17](./asset/APS17.PNG)
+![APS17](/asset/APS17.PNG)
 - 노드(node): 트리의 원소이고 정점(vertex)이라고도 함
     - 트리 T의 노드: A, B, C, D, E, F, G, H, I, J, K
 - 간선(edge): 노드를 연결하는 선
@@ -153,12 +153,12 @@ def checknode(node, v):
     - 왼쪽 자식 노드(left child node)
     - 오른쪽 자식 노드(right child node)
 - 이진 트리의 예        
-![APS18](./asset/APS18.PNG)
+![APS18](/asset/APS18.PNG)
 
 ### 특성
 - 레벨 i에서의 노드의 최대 개수는 2^i개
 - 높이가 h인 이진 트리가 가질 수 있는 노드의 최소 개수는 (h + 1)개가 되며, 최대 개수는 (2^(h + 1) - 1)개가 됨           
-![APS19](./asset/APS19.PNG)
+![APS19](/asset/APS19.PNG)
 
 ### 종류
 #### 포화 이진 트리(Full Binary Tree)
@@ -166,16 +166,16 @@ def checknode(node, v):
 - 높이가 h일 때, 최대의 노드 개수인 (2^(h + 1) - 1)의 노드를 가진 이진 트리
     - 높이 3일 때 15개의 노드
 - 루트를 1번으로 하여 (2^(h + 1) - 1)까지 정해진 위치에 대한 노드 번호를 가짐                   
-![APS20](./asset/APS20.PNG)
+![APS20](/asset/APS20.PNG)
 
 #### 완전 이진 트리(Completed Binary Tree)
 - 높이가 h이고 노드 수가 n개 일 때 (단, 2^h <= n < (2^(h + 1) - 1)), 포화 이진 트리의 노드 번호 1번부터 n번까지 빈 자리가 없는 이진 트리
 - 예) 노드가 10개인 완전 이진 트리          
-![APS21](./asset/APS21.PNG)
+![APS21](/asset/APS21.PNG)
 
 #### 편향 이진 트리(Skewed Binary Tree)
 - 높이 h에 대한 최소 개수의 노드를 가지면서 한쪽 방향의 자식 노드만을 가진 이진 트리                
-![APS22](./asset/APS22.PNG)
+![APS22](/asset/APS22.PNG)
 
 ### 이진 트리 - 순회(traversal)
 - 순회 (traversal)란 트리의 각 노드를 중복되지 않게 전부 방문 (visit)하는 것을 말하는데 트리는 비선형 구조이기 때문에 선형 구조에서와 같이 선후 연결 관계를 알 수 없음
@@ -188,7 +188,7 @@ def checknode(node, v):
     - 후휘 순회(postorder traversal): LRV
         - 현재 노드보다 자손 노드를 먼저 방문
 
-![APS23](./asset/APS23.PNG)
+![APS23](/asset/APS23.PNG)
 
 #### 전위 순회(preorder traversal)
 - 수행 방법
@@ -204,7 +204,7 @@ def preorder_traverse(T):
         preorder_traverse(T.right)
 ```
 - 전위 순회 예
-![APS24](./asset/APS24.PNG)
+![APS24](/asset/APS24.PNG)
 
 #### 중위 순회(inorder traversal)
 - 수행 방법
@@ -220,7 +220,7 @@ def inorder_traverse(T):
         inorder_traverse(T.right)
 ```
 - 중위 순회 예
-![APS25](./asset/APS25.PNG)
+![APS25](/asset/APS25.PNG)
 
 #### 후위 순회(postorder traversal)
 - 수행 방법
@@ -236,30 +236,30 @@ def postorder_traverse(T):
         visit(T)
 ```
 - 후위 순회 예
-![APS26](./asset/APS26.PNG)
+![APS26](/asset/APS26.PNG)
 
 ### 트리의 표현
 #### 배열을 이용한 이진 트리의 표현
 - 이진 트리에 각 노드 번호를 다음과 같이 부여
 - 루트의 번호를 1로 부여하고
 - 레벨 n에 있는 노드에 대해 왼쪽부터 오른쪽으로 2^n부터 (2^(n+1) - 1)까지 번호를 차례로 부여        
-![APS27](./asset/APS27.PNG)
+![APS27](/asset/APS27.PNG)
 
 #### 노드 번호의 성질
 - 노드 번호가 i인 노드의 부모 노드 번호: i/2
 - 노드 번호가 i인 노드의 왼쪽 자식 노드 번호: 2 * i
 - 노드 번호가 i인 노드의 오른쪽 자식 노드 번호: 2 * i + 1
 - 레벨 n의 노드 번호 시작 번호: 2^n         
-![APS28](./asset/APS28.PNG)
-![APS29](./asset/APS29.PNG)
+![APS28](/asset/APS28.PNG)
+![APS29](/asset/APS29.PNG)
 
 #### 배열을 이용한 이진 트리의 표현
 - 노드 번호를 배열의 인덱스로 사용
 - 높이가 h인 이진 트리를 위한 배열의 크기
     - 레벨 i의 최대 노드 수: 2^i
     - 따라서 1 + 2 + 4 + 8 + ... + 2^i          
-![APS30](./asset/APS30.PNG)
-![APS31](./asset/APS31.PNG)
+![APS30](/asset/APS30.PNG)
+![APS31](/asset/APS31.PNG)
 
 #### 배열을 이용한 이진 트리의 표현의 단점
 - 편향 이진 트리의 경우에 사용하지 않는 배열 원소에 대한 메모리 공간 낭비 발생
@@ -267,9 +267,9 @@ def postorder_traverse(T):
 
 #### 연결리스트를 이용한 이진 트리의 표현
 - 이진 트리의 모든 노드는 최대 2개의 자식 노드를 가지므로 일정한 구조의 단순 연결 리스트 노드를 사용하여 구현       
-![APS32](./asset/APS32.PNG)
+![APS32](/asset/APS32.PNG)
 - 완전 이진 트리의 연결 리스트 표현         
-![APS33](./asset/APS33.PNG)
+![APS33](/asset/APS33.PNG)
 
 ### 연습 문제: 트리 순회
 - 첫 줄에는 트리의 노드의 총 수 V가 주어짐 그 다음 V - 1개 간선이 나열
@@ -357,7 +357,7 @@ inorder(1)
 - 서브 트리에 대해서 순환적으로 탐색 연산을 반복
 - 탐색 수행할 서브 트리가 없으면 탐색 실패
 - 13 탐색
-![APS34](./asset/APS34.PNG)
+![APS34](/asset/APS34.PNG)
 
 #### 삽입 연산
 1. 먼저 탐색 연산을 수행
@@ -365,18 +365,18 @@ inorder(1)
     - 탐색에서 탐색 실패가 결정되는 위치가 삽입 위치가 됨
 2. 탐색 실패한 위치에 원소를 삽입
 - 5를 삽입하는 예시
-![APS35](./asset/APS35.PNG)
+![APS35](/asset/APS35.PNG)
 
 #### 삭제 연산
 - 삭제 연산에 대해 알고리즘을 생각해 보자
 - 다음 트리에 대해 13, 12, 9를 차례로 삭제하자
-![APS36](./asset/APS36.PNG)
+![APS36](/asset/APS36.PNG)
 - 13 삭제: 삭제할 노드가 리프 노드인 경우: 차수가 0인 경우
-![APS37](./asset/APS37.PNG)
+![APS37](/asset/APS37.PNG)
 - 12 삭제: 삭제할 노드가 리프 노드가 아닌 경우: 차수가 1인 경우
-![APS38](./asset/APS38.PNG)
+![APS38](/asset/APS38.PNG)
 - 9 삭제: 삭제할 노드가 리프 노드가 아닌 경우: 차수가 2인 경우
-![APS39](./asset/APS39.PNG)
+![APS39](/asset/APS39.PNG)
 
 ### 이진 탐색 트리: 성능
 - 탐색(searching), 삽입(insertion), 삭제(deletion) 시간은 트리의 높이만큼 시간이 걸림
@@ -404,9 +404,9 @@ inorder(1)
 ### 힙 연산
 #### 삽입
 - 17 삽입
-![APS40](./asset/APS40.PNG)
+![APS40](/asset/APS40.PNG)
 - 23 삽입
-![APS41](./asset/APS41.PNG)
+![APS41](/asset/APS41.PNG)
 
 #### 삭제
 - 힙에서는 루트 노드의 원소만을 삭제할 수 있음
@@ -414,7 +414,7 @@ inorder(1)
 - 힙의 종류에 따라 최대값 또는 최소값을 구할 수 있음
     - 우선 순위 큐와 비교
 - 예시
-![APS42](./asset/APS42.PNG)
+![APS42](/asset/APS42.PNG)
 
 ### 힙의 활용
 - 힙을 활용하는 대표적인 2가지 예는 **특별한 큐의 구현**과 **정렬**임
