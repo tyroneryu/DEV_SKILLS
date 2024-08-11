@@ -1,6 +1,6 @@
 # DEV_SKILLS
 
-## Python
+## Python ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
   - [Basic Syntax](Python/python_basic_syntax.md)
     
   - [Data Type](Python/python_data_type.md)
@@ -66,7 +66,7 @@
 
 ---
 
-## Web
+## Web ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   - [HTML 01](Web/HTML01.md)
     
   - [HTML 02](Web/HTML02.md)
@@ -77,7 +77,7 @@
 
 ---
 
-## Django
+## Django ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
   - [Django 01](Django/Django01.md)
     
   - [Django 02](Django/Django02.md)
@@ -102,7 +102,7 @@
 
 ---
 
-## Data Base
+## Data Base ![MYSQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
   - [DB 01](DB/DB01.md)
     
   - [DB 02](DB/DB02.md)
@@ -115,7 +115,8 @@
 
 ---
 
-## Java Script
+## Java Script ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)
+
   - [JavaScript 01](JavaScript/JavaScript01.md)
     
   - [JavaScript 02](JavaScript/JavaScript02.md)
@@ -130,7 +131,7 @@
 
 ---
 
-## VUE
+## VUE ![VUE](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
   - [VUE 01](VUE/Vue01.md)
     
   - [VUE 02](VUE/Vue02.md)
