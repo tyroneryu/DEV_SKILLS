@@ -4,10 +4,9 @@
 
 
 ## Git  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-  - [Git Base]
-  - [Git Remote]
-  - [Git Practice]
-  - [Git Workflow]
+  - [Git Base](Git/git_base.md)
+  - [Git Remote](Git/git_remote.md)
+  - [Git Practice](Git/git_practice.md)
 
 
 ## Python   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
