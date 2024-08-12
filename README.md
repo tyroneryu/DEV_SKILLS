@@ -1,6 +1,6 @@
 # DEV_SKILLS
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)![MYSQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)![VUE](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)![MYSQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)![VUE](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
 
 ## Python   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -19,6 +19,43 @@
   - [Object Oriented Programming 01](Python/python_oop_1.md)
     
   - [Object Oriented Programming 02](Python/python_oop_2.md)
+
+---
+
+## C++ ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+  - [C++ 01](C++/cpp01.md)
+    
+  - [C++ 02](C++/cpp02.md)
+    
+  - [C++ 03](C++/cpp03.md)
+    
+  - [C++ 04](C++/cpp04.md)
+    
+  - [C++ 05](C++/cpp05.md)
+    
+  - [C++ 06](C++/cpp06.md)
+    
+  - [C++ 07](C++/cpp07.md)
+    
+  - [C++ 08](C++/cpp08.md)
+    
+  - [C++ 09](C++/cpp09.md)
+    
+  - [C++ 10](C++/cpp10.md)
+    
+  - [C++ 11](C++/cpp11.md)
+    
+  - [C++ 12](C++/cpp12.md)
+    
+  - [C++ 13](C++/cpp13.md)
+    
+  - [C++ 14](C++/cpp14.md)
+    
+  - [C++ 15](C++/cpp15.md)
+    
+  - [C++ 16](C++/cpp16.md)
+    
+  - [C++ 17](C++/cpp17.md)
 
 ---
 
@@ -167,13 +204,4 @@
   - [ReactJS 05](ReactJS/ReactJS05.md)
 
 ---
-
-## C++
-  - [C++ 01]
-  - [C++ 02]
-  - [C++ 03]
-  - [C++ 04]
-  - [C++ 05]
-  - [C++ 06]
-  - [C++ 07]
   
