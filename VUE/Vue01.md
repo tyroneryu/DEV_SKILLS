@@ -2,7 +2,7 @@
 ## Frontend Development
 - 웹사이트와 웹 어플리케이션의 사용자 인터페이스(UI)와 사용자 경험(UX)을 만들고 디자인하는 것
 - HTML, CSS, JavaScript 등을 활용하여 사용자가 직접 상호작용하는 부분을 개발
-![Vue01](./asset/Vue01.PNG)
+![Vue01](/asset/Vue01.PNG)
 
 ### Client-side frameworks
 - 클라이언트 측에서 UI와 상호 작용을 개발하기 위해 사용되는 JavaScript 기반 프레임워크
@@ -29,7 +29,7 @@
 - 클라이언트에서 화면을 렌더링하는 방식
 
 #### CSR 동작 과정
-![Vue02](./asset/Vue02.PNG)
+![Vue02](/asset/Vue02.PNG)
 1. 브라우저는 서버로부터 최소한의 HTML 페이지와 해당 페이지에 필요한 JS 응답을 받음
 2. 그런 다음 클라이언트 측에서 JS를 사용하여 DOM을 업데이트하고 페이지를 렌더링
 3. 이후 서버는 더 이상 HTML을 제공하지 않고 요청에 필요한 데이터만 응답
@@ -79,7 +79,7 @@
 3. 유연성 및 성능
     - 작은 규모의 프로젝트부터 대규모의 애플리케이션까지 다양한 프로젝트에 적합
 4. 가장 주목받는 Client-side framework
-![Vue03](./asset/Vue03.PNG)
+![Vue03](/asset/Vue03.PNG)
 
 ### Vue 체험하기
 ```js
@@ -111,7 +111,7 @@
 </body>
 ```
 - 결과
-![Vue04](./asset/Vue04.PNG)
+![Vue04](/asset/Vue04.PNG)
 
 #### Vue의 2가지 핵심 기능
 1. 선언적 렌더링 (Declarative Rendering)
@@ -283,7 +283,7 @@ const { id } = object
   </script>
 </body>
 ```
-- ![Vue05](./asset/Vue05.PNG)
+- ![Vue05](/asset/Vue05.PNG)
 
 #### SEO (Search Engine Optimization)
 - google, bing과 같은 검색 엔진 등에 내 서비스나 제품 등이 효율적으로 검색 엔진에 노출되도록 개선하는 과정을 일컫는 작업
