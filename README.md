@@ -219,10 +219,15 @@
 
 ## LINUX ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
   - [LINUX 01]()
+    
   - [LINUX 02]()
+    
   - [LINUX 03]()
+    
   - [LINUX 04]()
+    
   - [LINUX 05]()
 
+---
 
   
