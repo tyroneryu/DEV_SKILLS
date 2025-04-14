@@ -64,13 +64,6 @@
 
 ---
 
-## R  ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-  - [R 01](R/r01.md)
-    
-  
-
----
-
 ## Algorithm
   - [Array 01](Algorithm/algorithm_array_1.md)
     
@@ -216,28 +209,4 @@
   - [ReactJS 05](ReactJS/ReactJS05.md)
     
 ---
-
-## LINUX  ![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-  - [LINUX 01]()
-    
-  - [LINUX 02]()
-    
-  - [LINUX 03]()
-    
-  - [LINUX 04]()
-    
-  - [LINUX 05]()
-
----
-
-## AWS  ![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-  - [AWS 01]()
-    
-  - [AWS 02]()
-    
-  - [AWS 03]()
-    
-  - [AWS 04]()
-    
-  - [AWS 05]()
   
